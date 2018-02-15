@@ -4,7 +4,7 @@ using UnityEngine;
 namespace DOTweenConfigs
 {
     [Serializable]
-    public class MoveTweenConfig<T> : ToTweenConfig<T>
+    public class PositionTweenConfig<T> : ToTweenConfig<T>
     {
         [SerializeField]
         private bool m_snapping = false;

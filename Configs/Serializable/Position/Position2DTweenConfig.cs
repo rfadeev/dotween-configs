@@ -4,7 +4,7 @@ using UnityEngine;
 namespace DOTweenConfigs
 {
     [Serializable]
-    public class Move1DTweenConfig : MoveTweenConfig<float>
+    public class Position2DTweenConfig : PositionTweenConfig<Vector2>
     {
     }
 }
