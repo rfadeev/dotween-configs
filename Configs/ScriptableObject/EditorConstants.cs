@@ -25,5 +25,11 @@
 
         public const string Scale3DTweenConfigAssetFileName = "Scale3DTweenConfigAsset";
         public const string Scale3DTweenConfigAssetMenuName = ScaleConfigsPath + Scale3DTweenConfigAssetFileName;
+
+        // Color configs
+        public const string ColorConfigsPath = CreateAssetMenuPathRoot + "/Color Configs/";
+
+        public const string ColorTweenConfigAssetFileName = "ColorTweenConfigAsset";
+        public const string ColorTweenConfigAssetMenuName = ColorConfigsPath + ColorTweenConfigAssetFileName;
     }
 }

@@ -16,5 +16,14 @@ namespace DOTweenConfigs
         {
             get { return m_to; }
         }
+
+        public ToTweenConfig()
+        {
+        }
+
+        public ToTweenConfig(T to)
+        {
+            m_to = to;
+        }
     }
 }
