@@ -7,8 +7,8 @@
         public const string MoveConfigsPath = CreateAssetMenuPathRoot + "/Move Configs/";
         public const int MoveConfigsOrder = 2000;
 
-        public const string MoveAxisTweenConfigAssetFileName = "MoveAxisTweenConfigAsset";
-        public const string MoveAxisTweenConfigAssetMenuName = MoveConfigsPath + MoveAxisTweenConfigAssetFileName;
+        public const string Move1DTweenConfigAssetFileName = "Move1DTweenConfigAsset";
+        public const string Move1DTweenConfigAssetMenuName = MoveConfigsPath + Move1DTweenConfigAssetFileName;
 
         public const string Move2DTweenConfigAssetFileName = "Move2DTweenConfigAsset";
         public const string Move2DTweenConfigAssetMenuName = MoveConfigsPath + Move2DTweenConfigAssetFileName;
