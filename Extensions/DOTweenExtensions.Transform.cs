@@ -44,5 +44,25 @@ namespace DOTweenConfigs
         {
             return target.DOLocalMoveZ(c.To, c.Duration, c.Snapping);
         }
+
+        public static Tweener DOScale(this Transform target, Scale3DTweenConfig c)
+        {
+            return target.DOScale(c.To, c.Duration);
+        }
+
+        public static Tweener DOScaleX(this Transform target, Scale1DTweenConfig c)
+        {
+            return target.DOScaleX(c.To, c.Duration);
+        }
+
+        public static Tweener DOScaleY(this Transform target, Scale1DTweenConfig c)
+        {
+            return target.DOScaleY(c.To, c.Duration);
+        }
+
+        public static Tweener DOScaleZ(this Transform target, Scale1DTweenConfig c)
+        {
+            return target.DOScaleZ(c.To, c.Duration);
+        }
     }
 }
