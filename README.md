@@ -23,19 +23,20 @@ Serializable object version allows sharing same tween config between several obj
 Add tween config serializable field to your object and setup tween parameters.
 Use coressponding extension method to start tween with this tween config.
 
-Example of serializable [move 3D tween config](https://github.com/rfadeev/dotween-configs/blob/master/Configs/Serializable/Move/Move3DTweenConfig.cs):
+Example of serializable [position 3D tween config](https://github.com/rfadeev/dotween-configs/blob/master/Configs/Serializable/Position/Position3DTweenConfig.cs)
+used in `DOMove` extension method:
 ```chsarp
 using UnityEngine;
 using DOTweenConfigs;
 
-public class MoveSerializableExample : MonoBehaviour
+public class DOMoveSerializableExample : MonoBehaviour
 {
     [SerializeField]
-    private Move3DTweenConfig move3DTweenConfig;
+    private Position3DTweenConfig tweenConfig;
 
     private void Start()
     {
-        transform.DOMove(move3DTweenConfig);
+        transform.DOMove(tweenConfig);
     }
 }
 ```
@@ -48,19 +49,20 @@ Setup tween parameters for tween config asset via inspector.
 Add tween config asset serializable field to your object and link desired tween config asset. 
 Use coressponding extension method to start tween with this tween config asset.
 
-Example of [move 3D tween config scriptable object](https://github.com/rfadeev/dotween-configs/blob/master/Configs/ScriptableObject/Move/Move3DTweenConfigAsset.cs):
+Example of [position 3D tween config scriptable object](https://github.com/rfadeev/dotween-configs/blob/master/Configs/ScriptableObject/Position/Position3DTweenConfigAsset.cs)
+used in `DOMove` extension method:
 ```chsarp
 using UnityEngine;
 using DOTweenConfigs;
 
-public class MoveScriptableObjectExample : MonoBehaviour
+public class DOMoveScriptableObjectExample : MonoBehaviour
 {
     [SerializeField]
-    private Move3DTweenConfigAsset move3DTweenConfigAsset;
+    private Position3DTweenConfig tweenConfigAsset;
 
     private void Start()
     {
-        transform.DOMove(move3DTweenConfigAsset.TweenConfig);
+        transform.DOMove(tweenConfigAsset.TweenConfig);
     }
 }
 ```
