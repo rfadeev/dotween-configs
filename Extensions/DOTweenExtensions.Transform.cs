@@ -64,5 +64,35 @@ namespace DOTweenConfigs
         {
             return target.DOScaleZ(c.To, c.Duration);
         }
+
+        public static Tweener DOShakePosition(this Transform target, SnapShakeTweenConfig c)
+        {
+            return target.DOShakePosition(c.Duration, c.Strength, c.Vibrato, c.Randomness, c.Snapping, c.FadeOut);
+        }
+
+        public static Tweener DOShakePosition(this Transform target, SnapShake3DTweenConfig c)
+        {
+            return target.DOShakePosition(c.Duration, c.Strength, c.Vibrato, c.Randomness, c.Snapping, c.FadeOut);
+        }
+
+        public static Tweener DOShakeRotation(this Transform target, ShakeTweenConfig c)
+        {
+            return target.DOShakeRotation(c.Duration, c.Strength, c.Vibrato, c.Randomness, c.FadeOut);
+        }
+
+        public static Tweener DOShakeRotation(this Transform target, Shake3DTweenConfig c)
+        {
+            return target.DOShakeRotation(c.Duration, c.Strength, c.Vibrato, c.Randomness, c.FadeOut);
+        }
+
+        public static Tweener DOShakeScale(this Transform target, ShakeTweenConfig c)
+        {
+            return target.DOShakeScale(c.Duration, c.Strength, c.Vibrato, c.Randomness, c.FadeOut);
+        }
+
+        public static Tweener DOShakeScale(this Transform target, Shake3DTweenConfig c)
+        {
+            return target.DOShakeScale(c.Duration, c.Strength, c.Vibrato, c.Randomness, c.FadeOut);
+        }
     }
 }

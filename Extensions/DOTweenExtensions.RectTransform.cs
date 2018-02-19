@@ -34,5 +34,15 @@ namespace DOTweenConfigs
         {
             return target.DOAnchorPos3D(c.To, c.Duration, c.Snapping);
         }
+
+        public static Tweener DOShakeAnchorPos(this RectTransform target, SnapShakeTweenConfig c)
+        {
+            return target.DOShakeAnchorPos(c.Duration, c.Strength, c.Vibrato, c.Randomness, c.Snapping, c.FadeOut);
+        }
+
+        public static Tweener DOShakeAnchorPos(this RectTransform target, SnapShake2DTweenConfig c)
+        {
+            return target.DOShakeAnchorPos(c.Duration, c.Strength, c.Vibrato, c.Randomness, c.Snapping, c.FadeOut);
+        }
     }
 }

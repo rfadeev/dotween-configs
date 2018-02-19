@@ -31,5 +31,23 @@
 
         public const string ColorTweenConfigAssetFileName = "ColorTweenConfigAsset";
         public const string ColorTweenConfigAssetMenuName = ColorConfigsPath + ColorTweenConfigAssetFileName;
+
+        // Shake configs
+        public const string ShakeConfigsPath = CreateAssetMenuPathRoot + "/Shake Configs/";
+
+        public const string ShakeTweenConfigAssetFileName = "ShakeTweenConfigAsset";
+        public const string ShakeTweenConfigAssetMenuName = ShakeConfigsPath + ShakeTweenConfigAssetFileName;
+
+        public const string Shake3DTweenConfigAssetFileName = "Shake3DTweenConfigAsset";
+        public const string Shake3DTweenConfigAssetMenuName = ShakeConfigsPath + Shake3DTweenConfigAssetFileName;
+
+        public const string SnapShakeTweenConfigAssetFileName = "SnapShakeTweenConfigAsset";
+        public const string SnapShakeTweenConfigAssetMenuName = ShakeConfigsPath + SnapShakeTweenConfigAssetFileName;
+
+        public const string SnapShake2DTweenConfigAssetFileName = "SnapShake2DTweenConfigAsset";
+        public const string SnapShake2DTweenConfigAssetMenuName = ShakeConfigsPath + SnapShake2DTweenConfigAssetFileName;
+
+        public const string SnapShake3DTweenConfigAssetFileName = "SnapShake3DTweenConfigAsset";
+        public const string SnapShake3DTweenConfigAssetMenuName = ShakeConfigsPath + SnapShake3DTweenConfigAssetFileName;
     }
 }
