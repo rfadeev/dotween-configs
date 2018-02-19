@@ -13,11 +13,11 @@ The goal of this project is to ease such configuration.
 ## How to use
 DOTween is required for tween configs. You can download it [here](http://dotween.demigiant.com/download.php).
 
-Add this repository as submodule or download it and put to Assets folder of your Unity project.
+Add this repository as submodule under `Assets` folder or download it and put to `Assets` folder of your Unity project.
 Import `DOTweenConfigs` namespace to use tween configs.
 
 There are two ways to use tween configs: either use [serializable version](https://github.com/rfadeev/dotween-configs/tree/master/Configs/Serializable) or [scriptable object](https://github.com/rfadeev/dotween-configs/tree/master/Configs/ScriptableObject) one.
-Serializable object version allows sharing same tween config between several objects.
+Scriptable object version allows sharing same tween config between several objects.
 
 ### Serializable version
 Add tween config serializable field to your object and setup tween parameters.
