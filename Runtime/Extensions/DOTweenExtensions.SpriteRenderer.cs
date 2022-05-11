@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿#if DOTWEEN_SPRITE_MODULE_ENABLED
+
+using UnityEngine;
 using DG.Tweening;
 
 namespace DOTweenConfigs
@@ -11,3 +13,5 @@ namespace DOTweenConfigs
         }
     }
 }
+
+#endif

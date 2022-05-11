@@ -1,0 +1,11 @@
+{
+    "name": "com.rfadeev.dotweenconfigs",
+    "displayName": "DOTween Configs",
+    "version": "1.0.0",
+    "unity": "2017.1",
+    "description": "Configs to setup DOTween's tween parameters via Unity editor.",
+    "author": {
+        "name": "Roman Fadeev",
+        "url": "https://twitter.com/Sunset_Drive"
+    }
+}

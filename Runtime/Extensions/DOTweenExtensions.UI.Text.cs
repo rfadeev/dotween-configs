@@ -1,4 +1,6 @@
-﻿using UnityEngine.UI;
+﻿#if DOTWEEN_UI_MODULE_ENABLED
+
+using UnityEngine.UI;
 using DG.Tweening;
 
 namespace DOTweenConfigs
@@ -11,3 +13,5 @@ namespace DOTweenConfigs
         }
     }
 }
+
+#endif

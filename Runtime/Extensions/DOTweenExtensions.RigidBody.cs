@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿#if DOTWEEN_PHYSICS_MODULE_ENABLED
+
+using UnityEngine;
 using DG.Tweening;
 
 namespace DOTweenConfigs
@@ -26,3 +28,5 @@ namespace DOTweenConfigs
         }
     }
 }
+
+#endif
