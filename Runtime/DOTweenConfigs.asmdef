@@ -1,7 +1,9 @@
 {
     "name": "DOTweenConfigs",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "DOTween.Modules"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
