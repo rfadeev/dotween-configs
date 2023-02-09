@@ -66,3 +66,21 @@ public class DOMoveScriptableObjectExample : MonoBehaviour
     }
 }
 ```
+
+## Installation
+Project supports Unity Package Manager. To install project as Git package, update package manifest dependencies to have `com.rfadeev.dotweenconfigs` package:
+```json
+{
+  "dependencies": {
+    "com.rfadeev.dotweenconfigs": "https://github.com/rfadeev/dotween-configs"
+  }
+}
+```
+
+To use DOTween configs for Physics, Physics2D, Sprites and UI DOTween modules, additionnal setup is required.
+1. Create assembly definition file for DOTween modules. For that click "Create ASMDEF..." button in DOTween Utility Panel.
+2. Add following defines to your [scripting define symbols](https://docs.unity3d.com/Manual/CustomScriptingSymbols.html)
+    * `DOTWEEN_PHYSICS_MODULE_ENABLED` for Physics module
+    * `DOTWEEN_PHYSICS2D_MODULE_ENABLED` for Physics2D module
+    * `DOTWEEN_SPRITE_MODULE_ENABLED` for Sprite module. It is called Sprites module in the DOTween Utility Panel, but Sprite in the DOTween code.
+    * `DOTWEEN_UI_MODULE_ENABLED` for UI module
